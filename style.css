@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 #container {
@@ -8,3 +9,52 @@
   margin: 88px auto;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E5245E;
+}
+
+p {
+  color: #333333;
+}
+
+ol li {
+  font-size: 32px;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+li .historia {
+  color: #0C51A7;
+}
+
+li .casais {
+  color: #591B98;
+}
+
+li .familias {
+  color: #E5245E;
+}
+
+li .orcamento {
+  color: #E95E10;
+}
+
+
+img {
+  border-radius: 28px;
+}
