@@ -7,13 +7,18 @@
 #container {
   width: 1120px;
   margin: 88px auto;
-  border: 1px solid red;
+}
+
+header {
+  margin-bottom: 40px;
 }
 
 h1 {
   font-size: 36px;
   font-weight: bold;
   color: #1B1B1B;
+
+  margin-top: 8px;
 }
 
 h2 {
@@ -38,16 +43,49 @@ p {
 p#texto {
   font-style: italic;
   text-align: center;
+  margin: 24px auto 0px;
+}
+
+#divisoria {
+  width: 100%;
+  border-top: 1px solid #D9D9D9;
+  margin: 40px auto 64px;
+}
+
+#list {
+  margin-top: 64px 0px 65px;
+}
+
+h2 + h3 {
+  margin-top: 2px;
+}
+
+p + h2 {
+  margin-top: 4px;
+}
+
+#card1 {
+  margin: 64px 0px 0px;
+}
+
+#card2 {
+  margin: 48px 0px;
+}
+
+ol li {
+  margin: 0px 30px;
 }
 
 ol li h2 {
-  font-size: 32px;
+  font-size: 28px;
   color: #1B1B1B;
   font-weight: bold;
+
+  margin-top: 20px;
 }
 
 ol li::marker {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -86,12 +124,26 @@ li.orcamento {
   font-weight: bold;
 }
 
+#divisoria2 {
+  width: 100%;
+  border-top: 1px solid #D9D9D9;
+  margin: 40px auto 40px;
+}
 
 img {
   border-radius: 28px;
-  font-weight: bold;
 }
 
 p#conclusao {
   text-align: center;
+}
+
+footer {
+  color: #333333;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
